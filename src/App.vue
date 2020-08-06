@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <router-view></router-view>
+    <network></network>
   </div>
 </template>
 
@@ -9,7 +9,7 @@
     import Vue from 'vue'
 
     export default {
-        name: 'app',
-        router
+        name: 'app'
+
     }
 </script>
